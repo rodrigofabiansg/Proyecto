@@ -69,7 +69,7 @@
                 mail($destino,$asunto,$mensaje,$remitente);
                 
                 echo "<div align='center'><br><br><br><br><h2>Gracias por sus comentarios, pronto nos contactaremos con usted.<h2><br><br><br><br><div>";
-                }else{?>
+                ?>}else{
             <form method="post" action="contacto.php" name="frmcontacto">
   </div>
   <br>
