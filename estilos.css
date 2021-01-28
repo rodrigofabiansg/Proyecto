@@ -1,0 +1,102 @@
+body{background: #d0d3d4;
+	width: 100%;
+}
+
+a{
+	text-decoration:none;
+	color: #000000;
+	width: 110px;
+	float: left;
+	background:  #d0d3d4;
+	text-align: center;
+	border-radius: 20px;
+}
+
+a:hover{
+	color: #000;
+	background: #9c9c9c;
+}
+
+.column2{display: inline-block;
+}
+
+dd{
+	text-decoration:none;
+	color #000000;
+	width: 150px;
+	background: #d0d3d4;
+	text-align: left;
+	border-radius: 0px;	
+}
+
+li:hover{
+	color: #000;
+	background: #9c9c9c;
+}
+
+img{
+	display: block;
+	margin: auto;
+}
+
+.column3{display: inline-block;}
+
+c{
+	text-decoration:none;
+	color #FFF;
+	background: #f2f3f4;
+}
+
+c:hover{
+	color: #000;
+	background: #9c9c9c;
+}
+
+d{
+	text-decoration:none;
+	color #FFF;
+	width: 140px;
+	float: left;
+	background:  #d0d3d4;
+	text-align: center;
+	border-radius: 0px;
+}
+
+d:hover{
+	color: #000;
+	background: #9c9c9c;
+}
+
+image{
+	display: block;
+	margin: auto;
+}
+
+boton{
+	text-decoration:none;
+	color #FFF;
+	width: 140px;
+	float: left;
+	background: #9c9c9c;
+	text-align: center;
+	border-radius: 20px;
+}
+
+boton:hover{
+	color: #FFFFFF;
+	background: #9c9c9c;
+}
+
+.caja{
+	border: solid 2px #000;
+	width: 100%;
+}
+
+.caja:hover{
+	border: solid 2px #FF0;
+}
+@media only screen and (max-width: 380px){
+	.a, .column2, .dd, .d, .boton{
+		width: 100%;
+	}
+}
